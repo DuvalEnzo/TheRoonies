@@ -4,7 +4,7 @@ const port = 3000
 
 app.use('/static', express.static('src'));
 app.get('/', (req, res) => {
-    res.send()
+    res.sendFile(__dirname + '/src/home/index.html');
 })
 app.listen(port, () => {
     console.log(`http://localhost:${port}`)
