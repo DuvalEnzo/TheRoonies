@@ -4,23 +4,10 @@
 
 #logo{color: white;}
 
-#accueil{
-    color: black;
-
-}
 #accueil:hover{font-weight: bold}
 
-#nosroonies{
-    color: black;
-}
 #nosroonies:hover{font-weight: bold}
 
-#propos{
-    color: black;
-}
 #propos:hover{font-weight: bold}
 
-#contact{
-    color: black;
-}
 #contact:hover{font-weight: bold}
