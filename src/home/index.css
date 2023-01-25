@@ -1,13 +1,35 @@
-.navbar{
+.navbar {
     background-color: #FFE9D5;
+    height: 75px;
+
 }
 
-#logo{color: white;}
+.navbar-menu {
+    color: #623815;
+}
 
-#accueil:hover{font-weight: bold}
+.navbar-link{
+    padding-left: 10px;
+    padding-right: 10px ;
+}
 
-#nosroonies:hover{font-weight: bold}
+#logo {
+    color: white;
+    margin-left: 10px;
+}
 
-#propos:hover{font-weight: bold}
+#accueil:hover {
+    font-weight: bold
+}
 
-#contact:hover{font-weight: bold}
+#nosroonies:hover {
+    font-weight: bold
+}
+
+#propos:hover {
+    font-weight: bold
+}
+
+#contact:hover {
+    font-weight: bold
+}
