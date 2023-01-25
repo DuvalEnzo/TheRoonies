@@ -1,19 +1,26 @@
-#logo{
-color: white;
+.navbar{
+    background-color: #FFE9D5;
 }
+
+#logo{color: white;}
 
 #accueil{
-    color: white;
+    color: black;
+
 }
+#accueil:hover{font-weight: bold}
 
 #nosroonies{
-    color: white;
+    color: black;
 }
+#nosroonies:hover{font-weight: bold}
 
 #propos{
-    color: white;
+    color: black;
 }
+#propos:hover{font-weight: bold}
 
 #contact{
-    color: white;
+    color: black;
 }
+#contact:hover{font-weight: bold}
