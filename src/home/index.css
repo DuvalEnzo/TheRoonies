@@ -54,3 +54,16 @@
     position: absolute;
     z-index: -1;
 }
+.fusion {
+    top: 212px;
+    left: 108px;
+    width: 630px;
+    height: 198px;
+    font-family: Coniferous, sans-serif;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FD5994;
+    opacity: 1;
+    font-weight: 700;
+    font-style: normal;
+}
