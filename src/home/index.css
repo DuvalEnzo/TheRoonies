@@ -94,3 +94,11 @@ body{
 }
 
 .valeur{font-family: Coniferous,sans-serif;color: #623815;margin-top: 149px;margin-left: 350px;font-size: 80px;}
+
+.val{
+    height: 150px;
+    margin: 300px;
+    margin-top: 100px;
+    color:#FD659D;
+    font-family: objektiv-mk1,sans-serif;
+}
