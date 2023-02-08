@@ -1,3 +1,7 @@
+body{
+    background-color: #FFE9D5;
+}
+
 .navbar {
     background-color: #FFE9D5;
     height: 75px;
@@ -45,14 +49,14 @@
     top: 0;
     left: 0;
     z-index: -1;
-    margin-top: 70px;
 }
 
 
 .roonie img {
     width: 80%;
-    position: absolute;
-    z-index: -1;
+    z-index: 1;
+    margin-top: -230px;
+    margin-left: 120px;
 }
 .fusion {
     top: 212px;
@@ -66,13 +70,23 @@
     opacity: 1;
     font-weight: 700;
     font-style: normal;
+    margin-top: 84px;
 }
 .btn{
     top: 370px;
     left: 925px;
-    width: 343px;
-    height: 93px;
+    width:250px;
+    height: 65px;
     background: transparent linear-gradient(219deg, #FFE9D5 0%, #F2BD72 100%) 0% 0% no-repeat padding-box;
     border-radius: 78px;
     opacity: 1;
+    color: #FD5994;
+    font-family: objektiv, sans-serif;
+    margin-top: 135px;
+    margin-left: 160px;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
 }
+
+
