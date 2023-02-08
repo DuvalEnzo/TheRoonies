@@ -67,3 +67,12 @@
     font-weight: 700;
     font-style: normal;
 }
+.btn{
+    top: 370px;
+    left: 925px;
+    width: 343px;
+    height: 93px;
+    background: transparent linear-gradient(219deg, #FFE9D5 0%, #F2BD72 100%) 0% 0% no-repeat padding-box;
+    border-radius: 78px;
+    opacity: 1;
+}
