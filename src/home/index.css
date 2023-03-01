@@ -110,6 +110,8 @@ body {
     color: #FD659D;
     opacity: 1;
     font-family: objektiv-mk1, serif;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .valeur-content div img {
