@@ -74,8 +74,6 @@ body {
 }
 
 .btn {
-    top: 370px;
-    left: 925px;
     width: 250px;
     height: 65px;
     background: transparent linear-gradient(219deg, #FFE9D5 0%, #F2BD72 100%) 0 0 no-repeat padding-box;
@@ -83,11 +81,25 @@ body {
     opacity: 1;
     color: #FD5994;
     font-family: objektiv, sans-serif;
-    margin-top: 135px;
-    margin-left: 160px;
-    position: absolute;
     font-size: 25px;
     font-weight: bold;
+    position: absolute;
+    top: 370px;
+    left: 925px;
+    margin-top: 135px;
+    margin-left: 160px;
+}
+
+@media (max-width: 1500px) {
+    .btn {
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 50px;
+        top: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 .btn:hover {
