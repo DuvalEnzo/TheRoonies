@@ -99,13 +99,17 @@ body {
 .valeur {
     font-family: Coniferous, sans-serif;
     color: #623815;
-    margin-top: 149px;
-    margin-left: 350px;
+    margin-top: 200px;
+    margin-left: 200px;
     font-size: 80px;
 }
 
 .valeur-content {
     text-align: center;
+    letter-spacing: 0px;
+    color: #FD659D;
+    opacity: 1;
+    font-family: objektiv-mk1;
 }
 
 .valeur-content div img {
@@ -121,29 +125,4 @@ body {
     margin-top: 100px;
     color: #FD659D;
     font-family: objektiv-mk1, sans-serif;
-}
-
-.p1 {
-    font-family: objektiv-mk1;
-    text-align: center;
-    letter-spacing: 0px;
-    color: #FD659D;
-    opacity: 1;
-
-}
-
-.p2 {
-    font-family: objektiv-mk1;
-    text-align: center;
-    letter-spacing: 0px;
-    color: #FD659D;
-    opacity: 1;
-}
-
-.p3 {
-    font-family: objektiv-mk1;
-    text-align: center;
-    letter-spacing: 0px;
-    color: #FD659D;
-    opacity: 1;
 }
