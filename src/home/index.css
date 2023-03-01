@@ -108,6 +108,13 @@ body {
     text-align: center;
 }
 
+.valeur-content div img {
+    margin-top: 10px;
+    width: 80%;
+    height: 80%;
+}
+
+
 .val {
     height: 150px;
     margin: 300px;
