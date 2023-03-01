@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #FFE9D5;
 }
 
@@ -57,6 +57,7 @@ body{
     margin-top: -230px;
     margin-left: 120px;
 }
+
 .fusion {
     top: 212px;
     left: 108px;
@@ -71,10 +72,11 @@ body{
     font-style: normal;
     margin-top: 84px;
 }
-.btn{
+
+.btn {
     top: 370px;
     left: 925px;
-    width:250px;
+    width: 250px;
     height: 65px;
     background: transparent linear-gradient(219deg, #FFE9D5 0%, #F2BD72 100%) 0% 0% no-repeat padding-box;
     border-radius: 78px;
@@ -87,18 +89,29 @@ body{
     font-size: 25px;
     font-weight: bold;
 }
-.btn:hover{
+
+.btn:hover {
     background: transparent linear-gradient(219deg, #F2BD72 0%, #FD5994 100%) 0% 0% no-repeat padding-box;
     color: #FFE9D5;
 
 }
 
-.valeur{font-family: Coniferous,sans-serif;color: #623815;margin-top: 149px;margin-left: 350px;font-size: 80px;}
+.valeur {
+    font-family: Coniferous, sans-serif;
+    color: #623815;
+    margin-top: 149px;
+    margin-left: 350px;
+    font-size: 80px;
+}
 
-.val{
+.valeur-content .txt {
+    text-align: center;
+}
+
+.val {
     height: 150px;
     margin: 300px;
     margin-top: 100px;
-    color:#FD659D;
-    font-family: objektiv-mk1,sans-serif;
+    color: #FD659D;
+    font-family: objektiv-mk1, sans-serif;
 }
