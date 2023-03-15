@@ -5,10 +5,14 @@ const port = 3000
 app.use(express.static(__dirname + '/'));
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/src/home/index.html');
-})
+});
+
+app.get('/contact', (req, res) => {
+    res.sendFile(__dirname + '/src/contact/index.html');
+
+});
 
 //add img route
-
 
 
 app.listen(port, () => {

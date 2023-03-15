@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="827" height="307" viewBox="0 0 827 307">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.132" y1="1.221" x2="-0.103" y2="0.715" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9a1cc"/>
+      <stop offset="1" stop-color="#fd5994"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_88" data-name="Rectangle 88" width="827" height="307" transform="translate(13107.217 1467)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="158.5" height="53.569" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="591.125" height="709.903" fill="url(#linear-gradient-2)"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_de_masques_8" data-name="Groupe de masques 8" transform="translate(-13107.217 -1467)" clip-path="url(#clip-path)">
+    <g id="Groupe_107" data-name="Groupe 107" transform="translate(14324.201 -905.24) rotate(47)">
+      <g id="Groupe_13" data-name="Groupe 13" transform="translate(1374.666 1920.202) rotate(14)">
+        <g id="Groupe_12" data-name="Groupe 12" clip-path="url(#clip-path-2)">
+          <path id="Tracé_29" data-name="Tracé 29" d="M80.53,3.755c21.018,6.228,42.091,12.07,63.275,17.766,6.868,1.847,14.848,3.448,14.693,11.848-.123,6.635-7.85,13.689-13.447,16.11-8.756,3.788-18.84,2.656-28.106.385s-18.375-5.624-27.9-6.115c-12.415-.639-24.476,3.613-36.511,6.727-13.407,3.469-29.1,5.648-41.263-2.621C2.458,41.864-4.252,31.389,3.225,21.993,10.094,13.36,24.425,9.381,34.162,5.3,50.748-1.646,63.332-1.341,80.53,3.755" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+      <g id="Groupe_9" data-name="Groupe 9" transform="matrix(0.259, 0.966, -0.966, 0.259, 1507.224, 1836.325)">
+        <g id="Groupe_8" data-name="Groupe 8" clip-path="url(#clip-path-3)">
+          <path id="Tracé_27" data-name="Tracé 27" d="M187.864,63.8c42.212-52.492,121.35-84.811,177.791-48.046,42.466,27.663,56.664,83.44,57.58,134.114s-7.817,102.19,3.54,151.583c21.085,91.7,105.242,154.572,146.423,239.172,22.994,47.238,28.509,111.732-11.523,145.756C533.07,710.7,491.724,710.726,454.2,709.5L184.861,700.67c-35.417-1.161-73.59-3.3-101.175-25.542-45.609-36.78-58.532-120.8-73.031-174.182-11.74-43.218-17.64-82.571,3.081-123.849,26.8-53.378,70.037-94.115,94.153-150.052C131.86,171.442,149.283,111.7,187.864,63.8" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
