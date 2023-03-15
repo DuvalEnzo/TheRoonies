@@ -258,6 +258,12 @@ body {
     align-items: center;
 }
 
-insta {
-
+.footer{
+    background-color: #ECC8E1;
+}
+.footer-link{
+    font-family: objektiv-mk1, sans-serif;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
 }
