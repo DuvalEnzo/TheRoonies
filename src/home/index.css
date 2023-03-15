@@ -201,7 +201,7 @@ body {
     width: 90%;
     height: 180%;
     font-family: none;
-    font-size: 110px;
+    font-size: 64px;
     font-family: Coniferous, sans-serif;
     text-align: center;
     color: #FFE9D5;
@@ -217,7 +217,19 @@ body {
     height: 180%;
     font-family: none;
     font-family: Coniferous, sans-serif;
-    font-size: 110px;
+    font-size: 64px;
     text-align: center;
     color: #FD5994;
+}
+
+#valentin1{
+font-size: 60px;
+}
+
+#valentin2{
+    font-size: 60px;
+}
+
+#valentin3{
+    font-size: 60px;
 }
