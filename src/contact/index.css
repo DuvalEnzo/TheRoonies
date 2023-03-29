@@ -1,0 +1,59 @@
+body {
+    background-color: #FFE9D5;
+}
+
+.navbar {
+    background-color: #FFE9D5;
+    height: 75px;
+
+}
+
+.navbar-menu {
+    color: #623815;
+}
+
+.navbar-link {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-family: "objektiv-mk1", sans-serif;
+
+}
+
+#logo {
+    color: white;
+    margin-left: 10px;
+
+}
+
+#accueil:hover {
+    font-weight: bold
+}
+
+#nosroonies:hover {
+    font-weight: bold
+}
+
+#propos:hover {
+    font-weight: bold
+}
+
+#contact:hover {
+    font-weight: bold
+}
+
+#font1 {
+    position: relative;
+}
+
+.texte-contact {
+    position: absolute;
+    top: 50%; /* ou une autre valeur pour ajuster la position verticale */
+    left: 50%; /* ou une autre valeur pour ajuster la position horizontale */
+    transform: translate(-50%, -50%); /* pour centrer le texte sur l'image */
+}
+
+.contactez-nous {
+    color: #E91E63;
+    font-family: Coniferous, sans-serif;
+}
