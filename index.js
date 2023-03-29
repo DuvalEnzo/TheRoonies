@@ -12,6 +12,11 @@ app.get('/contact', (req, res) => {
 
 });
 
+app.get('/about', (req, res) => {
+    res.sendFile(__dirname + '/src/about/index.html');
+
+});
+
 //add img route
 
 

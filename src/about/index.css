@@ -1,0 +1,114 @@
+body {
+    background-color: #FFE9D5;
+}
+
+.navbar {
+    background-color: #FFE9D5;
+    height: 75px;
+
+}
+
+.navbar-menu {
+    color: #623815;
+}
+
+.navbar-link {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-family: "objektiv-mk1", sans-serif;
+
+}
+
+#logo {
+    color: white;
+    margin-left: 10px;
+
+}
+
+#accueil:hover {
+    font-weight: bold
+}
+
+#nosroonies:hover {
+    font-weight: bold
+}
+
+#propos:hover {
+    font-weight: bold
+}
+
+#contact:hover {
+    font-weight: bold
+}
+
+#font1 {
+    position: relative;
+}
+
+
+.bg-up img {
+    width: 100%;
+    position: relative;
+}
+
+.bg-up {
+    background-image: url(/src/img/a-propos-up.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.bg-up .title {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #FD5994;
+    font-family: "Coniferous", sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+
+}
+
+.bg-up .pt1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #623815;
+    font-family: "objektiv-mk1", sans-serif;
+    font-size: 30px;
+    font-weight: initial;
+}
+
+.pt1 .img1 {
+    transform: rotate(-17deg);
+}
+
+.pt1 .txt1 {
+    color: #FFE9D5;
+    font-family: "objektiv-mk1", sans-serif;
+    font-size: 16px;
+    font-weight: initial;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pt2 {
+    position: absolute;
+    color: #623815;
+    font-family: "objektiv-mk1", sans-serif;
+    font-size: 16px;
+    font-weight: initial;
+    transform: translateY(-20%);
+}
+
+.pt2 img {
+    width: 100%;
+    height: auto;
+    transform: translateY(-30%);
+}
+
+.pt2 .txt2 {
+    padding-left: 35px;
+    padding-right: 15px;
+
+}
