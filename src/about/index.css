@@ -58,34 +58,41 @@ body {
     font-family: "objektiv-mk1", sans-serif;
     font-size: 16px;
     font-weight: initial;
-    transform: translateY(-20%);
+    transform: translateY(-15%);
 }
 
 .pt2 img {
     width: 100%;
     height: auto;
-    transform: translateY(-30%);
+    transform: translateY(-25%);
 }
 
 .pt2 .txt2 {
-    padding-left: 35px;
+    padding-left: 45px;
     padding-right: 15px;
+}
+
+
+.bg-down {
 
 }
 
 
-.primary{
+.primary {
     background-color: #ECC8E1;
     text-align: center;
 }
-.footer{
 
-    display: flex;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     justify-content: center;
     align-items: center;
+
 }
 
-.footer-link{
+.footer-link {
     font-family: objektiv-mk1, sans-serif;
     margin-left: 20px;
     margin-right: 20px;
