@@ -43,17 +43,200 @@ body {
 }
 
 #font1 {
+    position: absolute;
+    z-index: 1;
+}
+
+#background-image {
+    background-image: url("src/img/information.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
     position: relative;
+    overflow: hidden;
+}
+
+#font2 {
+    position: absolute;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .texte-contact {
     position: absolute;
-    top: 50%; /* ou une autre valeur pour ajuster la position verticale */
-    left: 50%; /* ou une autre valeur pour ajuster la position horizontale */
-    transform: translate(-50%, -50%); /* pour centrer le texte sur l'image */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+
 .contactez-nous {
-    color: #E91E63;
     font-family: Coniferous, sans-serif;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFE9D5;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+    font-size: 88px;
+}
+
+.information{
+    font-family: Coniferous, sans-serif;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #623815;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+    font-size: 77px;
+}
+
+.nom{
+    font-family: objektiv-mk1, sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FD5994;
+    opacity: 1;
+    font-size: 33px;
+}
+
+.email{
+    font-family: objektiv-mk1, sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FD5994;
+    opacity: 1;
+    font-size: 33px;
+}
+
+.message{
+    font-family: objektiv-mk1, sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FD5994;
+    opacity: 1;
+    font-size: 33px;
+}
+
+form {
+    margin-top: 100px;
+    margin-left: 50px;
+    text-align: left;
+    font-family: objektiv-mk1, sans-serif;
+    letter-spacing: 0px;
+    color: #FD5994;
+    opacity: 1;
+    font-weight: bold;
+
+}
+.form-control {
+    border: 1px solid #B87EBE;
+    border-radius: 26px;
+    opacity: 1;
+}
+
+.name, .mail, .mess {
+    font-weight: bold !important;
+}
+.form-control{
+    height: auto;
+    line-height: normal;
+}
+
+.form-control::placeholder {
+    letter-spacing: 0px;
+    color: #F9A1CC;
+    opacity: 1;
+}
+
+.form-field {
+    margin-bottom: 25px;
+}
+
+#message {
+    width: 621px;
+    height: 100px;
+    resize: none;
+}
+
+#email{
+    width: 621px;
+}
+#nom{
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.primary{
+    background-color: #ECC8E1;
+    text-align: center;
+}
+.footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link{
+    font-family: objektiv-mk1, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #623815;
+    justify-content: center;
 }

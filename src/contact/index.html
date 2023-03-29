@@ -31,16 +31,45 @@
 
     <div>
        <div> <img src="src/img/contactez-nous.svg" id="font1">
-        <h1 class="contactez-nous">Contactez nous</h1>
+        <h1 class="contactez-nous">Contactez nous !</h1>
+       </div>
+        <form>
+            <div class="form-field">
+                <label class="name" for="nom">Nom</label>
+                <input type="text" id="nom" class="form-control rounded-1" placeholder="Jane Smith" />
+            </div>
+            <div class="form-field">
+                <label class="mail" for="email">Email</label>
+                <input type="text" id="email" class="form-control rounded-1" placeholder="jane.smith@exemple.com" />
+            </div>
+            <div class="form-field">
+                <label class="mess" for="message">Message</label>
+                <textarea id="message" class="form-control" rows="5" placeholder="Entrez votre message"></textarea>
+            </div>
+        </form>
+        <div class="button-container">
+            <button class="btn shadow-1 primary rounded-4">Rounded 4</button>
         </div>
     </div>
 
-    <div>
-        <img src="src/img/information.svg">
+    <div id="background-image">
+        <div>
+            <img src="src/img/information.svg" id="font2">
+            <h1 class="information">Information</h1>
+        </div>
     </div>
 
 
 </div>
-</body>
 
+
+
+
+</div>
+</body>
+<footer class="footer primary">
+    <div class="footer-link"> Conditions légales</div>
+    <div class="footer-link">Contact</div>
+    <div class="footer-link">A propos</div>
+</footer>
 </html>
