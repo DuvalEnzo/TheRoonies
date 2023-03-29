@@ -240,3 +240,36 @@ form {
     color: #623815;
     justify-content: center;
 }
+
+.btn{
+    background: transparent linear-gradient(241deg, var(--unnamed-color-f9a1cc) 0%, var(--unnamed-color-fd5994) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(241deg, #F9A1CC 0%, #FD5994 100%) 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    margin-left: -25px;
+}
+
+
+.icon-text {
+    margin-left: 10px; /* Ajoutez une marge à gauche pour espacer le texte de l'icône */
+    vertical-align: middle; /* Alignement vertical du texte avec l'icône */
+    font-size: 30px;
+    color: #623815;
+}
+
+.icon {
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 60px; /* Ajoutez une marge en haut pour espacer le titre et les icônes */
+}
+.icon-container {
+    margin-bottom: 80px; /* Ajoutez une marge en bas pour espacer les éléments */
+    display: flex; /* Utilisez un affichage flexible pour les éléments à l'intérieur du conteneur */
+    align-items: center; /* Centre les éléments verticalement */
+}
+
+.fav-icon{
+    width: 30px; /* Définit la largeur des icônes */
+    height: auto; /* Maintient le rapport hauteur/largeur des icônes */
+}
+
