@@ -2,46 +2,6 @@ body {
     background-color: #FFE9D5;
 }
 
-.navbar {
-    background-color: #FFE9D5;
-    height: 75px;
-
-}
-
-.navbar-menu {
-    color: #623815;
-}
-
-.navbar-link {
-    padding-left: 10px;
-    padding-right: 10px;
-
-    font-family: "objektiv-mk1", sans-serif;
-
-}
-
-#logo {
-    color: white;
-    margin-left: 10px;
-
-}
-
-#accueil:hover {
-    font-weight: bold
-}
-
-#nosroonies:hover {
-    font-weight: bold
-}
-
-#propos:hover {
-    font-weight: bold
-}
-
-#contact:hover {
-    font-weight: bold
-}
-
 .background img {
     width: 100%;
     position: absolute;
@@ -256,23 +216,4 @@ body {
     height: 200px;
     border: 5px solid white;
     align-items: center;
-}
-
-.primary{
-    background-color: #ECC8E1;
-    text-align: center;
-}
-.footer{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-link{
-    font-family: objektiv-mk1, sans-serif;
-    margin-left: 20px;
-    margin-right: 20px;
-    color: #623815;
-    justify-content: center;
 }

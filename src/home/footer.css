@@ -1,0 +1,18 @@
+.primary{
+    background-color: #ECC8E1;
+    text-align: center;
+}
+.footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link{
+    font-family: objektiv-mk1, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #623815;
+    justify-content: center;
+}

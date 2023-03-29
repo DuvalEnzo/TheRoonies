@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #FFE9D5;
+    height: 75px;
+
+}
+
+.navbar-menu {
+    color: #623815;
+}
+
+.navbar-link {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-family: "objektiv-mk1", sans-serif;
+
+}
+
+#logo {
+    color: white;
+    margin-left: 10px;
+
+}
+
+#accueil:hover {
+    font-weight: bold
+}
+
+#nosroonies:hover {
+    font-weight: bold
+}
+
+#propos:hover {
+    font-weight: bold
+}
+
+#contact:hover {
+    font-weight: bold
+}

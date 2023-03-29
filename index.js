@@ -16,7 +16,10 @@ app.get('/about', (req, res) => {
     res.sendFile(__dirname + '/src/about/index.html');
 
 });
+app.get('/legal', (req, res) => {
+    res.sendFile(__dirname + '/src/legal/index.html');
 
+});
 //add img route
 
 
