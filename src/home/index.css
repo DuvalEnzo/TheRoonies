@@ -166,9 +166,7 @@ body {
 }
 
 #card2 {
-    background: transparent linear-gradient(224deg, #f9a1cc 0%, #FD5B95 95%, #fd5994 100%) 0% 0% no-repeat padding-box;
-    background: transparent linear-gradient(224deg, #F9A1CC 0%, #FD5B95 95%, #FD5994 100%) 0% 0% no-repeat padding-box;
-    background-color: #B87EBE;
+    background: #B87EBE linear-gradient(224deg, #f9a1cc 0%, #FD5B95 95%, #fd5994 100%) no-repeat 0% 0%;
     border-radius: 61px;
     width: 94%;
     height: 110%;
@@ -181,13 +179,10 @@ body {
 }
 
 #card3 {
-    background: transparent linear-gradient(45deg, #ffe9d5 0%, #f2bd72 100%) 0% 0% no-repeat padding-box;
-    background: transparent linear-gradient(45deg, #FFE9D5 0%, #F2BD72 100%) 0% 0% no-repeat padding-box;
-    background-color: #B87EBE;
+    background: #B87EBE linear-gradient(45deg, #ffe9d5 0%, #f2bd72 100%) no-repeat 0% 0%;
     border-radius: 61px;
     width: 94%;
     height: 110%;
-    font-family: none;
     font-family: Coniferous, sans-serif;
     font-size: 64px;
     text-align: center;
@@ -219,7 +214,7 @@ body {
     font-family: Coniferous, sans-serif;
     color: #FD5994;
     text-align: left;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     font-size: 61px;
     font-weight: bold;
 }
