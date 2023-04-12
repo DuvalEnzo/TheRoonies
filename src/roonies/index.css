@@ -87,8 +87,10 @@ body {
 }
 
 .list-title {
-    font-weight: bold;
     text-align: left;
+    font-family: Coniferous, sans-serif;
+    color: #FD5994;
+    font-size: 80px;
     /* Ajoutez ici d'autres styles pour les titres des listes, si nécessaire */
 }
 
