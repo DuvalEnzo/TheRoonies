@@ -68,15 +68,7 @@ body{
 .grix {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-.grix div {
-    width: 30%;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
+    margin: 0 200px;
 }
 
 .footer {
@@ -90,15 +82,15 @@ body {
     text-align: left;
     font-family: Coniferous, sans-serif;
     color: #FD5994;
-    font-size: 80px;
-    /* Ajoutez ici d'autres styles pour les titres des listes, si nécessaire */
+    font-size: 60px;
+
 }
 
 .custom-list {
     list-style-type: none;
     padding: 0;
     text-align: left;
-    margin-top: 0; /* Ajout pour aligner la liste avec le titre */
+    margin-top: 0;
 }
 
 .list-item {
@@ -108,7 +100,7 @@ body {
     font-family: Objektiv Mk1,sans-serif;
     color: #623815;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .list-item:before {
