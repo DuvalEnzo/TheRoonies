@@ -21,7 +21,10 @@ app.get('/legal', (req, res) => {
 
 });
 //add img route
+app.get('/roonies', (req, res) => {
+    res.sendFile(__dirname + '/src/roonies/index.html');
 
+});
 
 app.listen(port, () => {
     console.log(`http://localhost:${port}`)
