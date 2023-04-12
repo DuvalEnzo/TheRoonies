@@ -1,35 +1,64 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <title>The Roonies</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/axentix@2.2.1/dist/axentix.min.css"/>
-  <link rel="stylesheet" href="/src/roonies/index.css"/>
-  <link rel="stylesheet" href="/src/home/navbar.css"/>
-  <link rel="stylesheet" href="/src/home/footer.css"/>
-  <link href="https://use.typekit.net/uvo3kzo.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/axentix@2.2.1/dist/axentix.min.js"></script>
+    <title>The Roonies</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/axentix@2.2.1/dist/axentix.min.css"/>
+    <link rel="stylesheet" href="/src/roonies/index.css"/>
+    <link rel="stylesheet" href="/src/home/navbar.css"/>
+    <link rel="stylesheet" href="/src/home/footer.css"/>
+    <link href="https://use.typekit.net/uvo3kzo.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axentix@2.2.1/dist/axentix.min.js"></script>
 
 </head>
-<body class="layout">
+<body class="layout main-body">
 <header>
 
-  <div class="navbar-fixed">
-    <nav class="navbar shadow-1">
-      <a href="#" target="_blank" class="navbar-logo">
-        <img src="/src/img/logoRoonies.svg" id="logo" alt="logo The Roonies">
-      </a>
-      <div class="hover-text navbar-centered hide-xs">
-        <a class="navbar-link" id="accueil" href="/">Accueil</a>
-        <a class="navbar-link" id="nosroonies" href="/roonies">Nos Roonies</a>
-        <a class="navbar-link" id="propos" href="/about">À Propos</a>
-        <a class="navbar-link" id="contact" href="/contact">Contact</a>
-      </div>
-    </nav>
-  </div>
+    <div class="navbar-fixed">
+        <nav class="navbar shadow-1">
+            <a href="#" target="_blank" class="navbar-logo">
+                <img src="/src/img/logoRoonies.svg" id="logo" alt="logo The Roonies">
+            </a>
+            <div class="hover-text navbar-centered hide-xs">
+                <a class="navbar-link" id="accueil" href="/">Accueil</a>
+                <a class="navbar-link" id="nosroonies" href="/roonies">Nos Roonies</a>
+                <a class="navbar-link" id="propos" href="/about">À Propos</a>
+                <a class="navbar-link" id="contact" href="/contact">Contact</a>
+            </div>
+        </nav>
+    </div>
 </header>
-<body>
+<div class="main-content">
+    <div class="content">
+        <div class="background-masque9"></div>
+        <h1 class="type">Nos trois types de cookies</h1>
+        <div class="icon">
+            <div class="icon-container">
+                <img class="fav-icon" src="src/img/Groupe%20de%20masques%2013.png" alt="Icon d'email">
+                <span class="icon-text">Chocolat au pépite de chocolat blanc</span>
+            </div>
+            <div class="icon-container">
+                <img class="fav-icon" src="src/img/Groupe%20de%20masques%2012.png" alt="Icon d'email">
+                <span class="icon-text">Framboise au pépite de chocolat blanc</span>
+            </div>
+            <div class="icon-container">
+                <img class="fav-icon" src="src/img/Groupe%20de%20masques%2011.png" alt="Icon d'email">
+                <span class="icon-text">Nature au pépite de chocolat</span>
+            </div>
+        </div>
+    </div>
+    <div class="grix xs3">
+        <div>Nos ganaches</div>
+        <div>Nos Topping</div>
+        <div>Nos coulis</div>
+    </div>
+</div>
 
+<footer class="footer primary">
+    <div class="footer-link"><a href="/legal">Conditions légales</a></div>
+    <div class="footer-link"><a href="/contact">Contact</a></div>
+    <div class="footer-link"><a href="/about">A propos</a></div>
+</footer>
 </body>
 </html>
