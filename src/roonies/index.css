@@ -3,9 +3,11 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    padding: 0;
+    margin:0;
 }
 .background img {
-    width: 100%; /* Vous pouvez changer cette valeur pour ajuster la largeur */
+    width: 100%;
     height: auto;
     position: relative;
     top: 0;
@@ -13,7 +15,7 @@ body{
     z-index: -1;
 }
 
-.main-container { /* Ajoutez ce bloc de code */
+.main-container {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -69,13 +71,12 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0 200px;
+    margin-bottom: -15%;
 }
 
-.footer {
-    margin-top: auto;
-}
+
 body {
-    margin: 0;
+    padding: 0;
 }
 
 .list-title {
@@ -95,7 +96,7 @@ body {
 
 .list-item {
     font-size: 20px;
-    padding-left: 20px; /* Ajoutez du padding à gauche pour décaler le texte à droite des cercles */
+    padding-left: 20px;
     position: relative;
     font-family: Objektiv Mk1,sans-serif;
     color: #623815;
@@ -115,7 +116,7 @@ body {
     background-color:#F2BD72;
 }
 .background img {
-    width: 100%; /* Vous pouvez changer cette valeur pour ajuster la largeur */
+    width: 100%;
     height: auto;
     position: relative;
     top: 0;
