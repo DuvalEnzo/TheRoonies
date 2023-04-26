@@ -75,6 +75,10 @@ body {
     transform: translateY(-100%);
 }
 
+.btn a {
+    margin-top: 10px;
+}
+
 .btn:hover {
     background: transparent linear-gradient(219deg, #F2BD72 0%, #FD5994 100%) 0 0 no-repeat padding-box;
     color: #FFE9D5;
