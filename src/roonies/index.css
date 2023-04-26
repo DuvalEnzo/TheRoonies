@@ -1,15 +1,16 @@
-body{
+body {
     background-color: #FFE9D5;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     padding: 0;
-    margin:0;
+    margin: 0;
 }
+
 .background img {
     width: 100%;
     height: auto;
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
@@ -98,7 +99,7 @@ body {
     font-size: 20px;
     padding-left: 20px;
     position: relative;
-    font-family: Objektiv Mk1,sans-serif;
+    font-family: Objektiv Mk1, sans-serif;
     color: #623815;
     margin-top: 20px;
     font-size: 20px;
@@ -113,8 +114,9 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color:#F2BD72;
+    background-color: #F2BD72;
 }
+
 .background img {
     width: 100%;
     height: auto;
@@ -122,4 +124,9 @@ body {
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+.bg-p1 p {
+
+    top: 0;
 }
